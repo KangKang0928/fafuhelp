@@ -1,8 +1,11 @@
-import request from 'axios'
+import axios from 'axios'
 
 export function request(config){
-    axios.default.baseURL="https://corsun.xyz/fafuhelp"
-    const instance =axios.created({
+    // 服务端
+    // axios.defaults.baseURL="https://corsun.xyz/fafuhelp"
+    // 本机
+    axios.defaults.baseURL="http://localhost:8080/fafuhelp_backend"
+    const instance =axios.create({
         
     })
     return instance(config)

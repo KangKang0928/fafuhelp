@@ -12,6 +12,8 @@ var _store = _interopRequireDefault(require("./store"));
 
 require("font-awesome/scss/font-awesome.scss");
 
+var _request = require("./network/request.js");
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
 _vue["default"].config.productionTip = false;

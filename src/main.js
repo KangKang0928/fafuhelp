@@ -4,6 +4,7 @@ import './registerServiceWorker'
 import router from './router'
 import store from './store'
 import 'font-awesome/scss/font-awesome.scss'
+import {request} from './network/request.js'
 
 Vue.config.productionTip = false
 
